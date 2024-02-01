@@ -1,0 +1,346 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    text-align: right;    
+}
+nav img{
+    width:150px;
+}
+.nav-links{
+    flex:1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding:8px 12px;
+    position: relative;
+}
+.nav-links ul li{
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+}
+.nav-links ul li:hover::after{
+    width:100%;
+}
+.text-box{
+    width: 90%;
+    color: green;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;   
+}
+
+.text-box img{
+    text-align: center;
+}
+.text-box h1{
+    font-size: 62px;  
+}
+.text-box p{
+    margin: 10px 0 40px;
+    font-size:14px;
+    color: yellow;
+    text-align: center;
+}
+
+    nav.fa{
+        display: none;
+}
+
+.Manchester-col{
+    width: 100%;
+    margin: auto;
+    text-align:left;
+    padding-top: 100px;
+      
+}
+
+h1{
+    font-size: 36px;
+    font-weight: 600;
+}
+p{
+    color: black;
+    font-size:14px;
+    line-height:22px;
+    padding:10px;      
+}
+h3{
+    text-align: center;
+}
+.about{ 
+    width: 80%;
+    margin: auto;
+    text-align:center;
+    padding-top: 100px;
+}
+
+h1{
+    font-size: 36px;
+    font-weight: 600;
+    text-align: center;
+}
+p{
+    color: black;
+    font-size:14px;
+    line-height:22px;
+    padding:10px;
+}
+.famous football club-col{
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+.Famous football club-col  img{
+    width: 100%;
+    border-radius: 8px;
+    padding: 5px;
+    border: 1px solid #ddd;
+}
+P{
+    color: black;
+    font-size: 15px;
+    padding: 10px;
+    text-align: center;
+}
+h4{
+    text-align: left;
+    font-size: 26px;
+    color: black;
+}
+.caption{
+    padding: 8px;
+    font-size: 10px;
+}
+.crash{
+    text-align:left;
+    padding-top: 1px;
+}
+.crash img{
+    border-radius: 8px;
+    padding: 5px;
+    border: 1px solid #ddd;
+}
+h6{
+    font-size: 26px;
+    text-align: left; 
+}
+.era{
+    font-size:  26px;
+    padding-top: 1px;
+}
+.era h1{
+    text-align: left;
+}
+p{
+    text-align: left;
+}
+h1{
+    text-align: center;
+}
+.League{
+    text-align: center;
+    font-size: 27px;
+    padding-top: 1px;
+    color: black;
+}
+.Landmarks h1{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+    color: black;
+}
+.Landmarks p{
+    text-align: center;
+    color: whitesmoke;
+}
+.Landmarks h4{
+    color: whitesmoke;
+    text-align: center;
+}
+.row p{
+    color: black;
+}
+.Landmark-col{
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden
+}
+.Landmark-col img{
+    width: 100%;
+}
+.Layer{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+}
+
+.places h2{
+    font-size: 20px;
+    text-align: left;
+}
+.places p{
+    color: black;
+    font-size:14px;
+    line-height:22px;
+    padding:10px;   
+}
+.places h3{
+    font-size: 20px;
+    text-align: left;
+    padding: 0px;
+}
+.places img{
+    width: 500px;
+    border-radius: 8px;
+    padding: 5px;
+    border: 1px solid #ddd;
+}
+.places{
+    background-color: lightblue;
+    background-position: center;
+    background-size:cover;
+}
+.RESTAURANTS{
+    background-color: lightskyblue;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.RESTAURANTS h1{
+    color: white;
+}
+.RESTAURANTS h2{
+    color: white;
+}
+.RESTAURANTS p{
+    color: black;
+    font-size:17px;
+    line-height:32px;
+    padding:20px;  
+}
+
+.RESTAURANTS img{
+    width: 700px;
+    border-radius: 10px;
+    padding: 5px;
+    border: 1px solid #ddd;
+}
+.people img{
+    width: 400px;
+    border-radius: 11px;
+}
+.people p{
+    font-size: 14px;
+    line-height: 22px;
+    padding: 4px;
+}
+.people h1{
+    text-align: center;
+}
+.people{
+     background-color: lightblue;
+    background-position: center;
+    background-size:cover;
+}
+
+
+
+
+
+.visite {
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(../image/st_peters_square_pano_large_d02319ef-a63d-4b5e-9ae5-c1b3e33a7937.webp);
+    background-position: center;
+    background-size:cover;
+    position: relative; 
+    color: white;
+}
+.visite p{
+    color: white;
+    text-align: center;
+}
+
+
+
+.social a{
+  font-size: 30px;
+  color: #F4FFFE;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 6px;
+  display: inline-block
+}
+.social a:hover {
+  color: white;
+  
+}
+.about{
+    font-size: 14px;
+    line-height: 92px;     
+}
+
+
+.club {
+    min-height: 100vh;
+    width: 100%;
+    background-color: lightblue;
+    background-position: center;
+    background-size:cover;
+    position: relative;
+}
+.body{
+    background-color: lightblue;
+    background-position: center;
+    background-size:cover;
+}
+.about{
+    background-color: lightblue;
+    background-position: center;
+    background-size:cover;
+    border-color: transparent
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+.fa-twitch{
+    background: #6441a5;
+    color: white;
+}
+
+
+
+
